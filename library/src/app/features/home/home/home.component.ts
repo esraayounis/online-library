@@ -8,7 +8,7 @@ import { BooksService } from '../../../core/services/books.service';
   standalone: true,
   imports: [RouterLink, CommonModule],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.sass'
+  styleUrl: './home.component.scss'
 })
 export class HomeComponent {
   books:any;

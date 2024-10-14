@@ -8,7 +8,7 @@ import { Book } from '../../../shared/models/book';
   standalone: true,
   imports: [],
   templateUrl: './book-details.component.html',
-  styleUrl: './book-details.component.sass'
+  styleUrl: './book-details.component.scss'
 })
 export class BookDetailsComponent {
   book!:Book;
